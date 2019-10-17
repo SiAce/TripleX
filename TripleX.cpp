@@ -101,10 +101,6 @@ bool PlayGame(int LevelDifficulty)
 
 int main(int argc, char *argv[])
 {
-    for (int i = 0; i < argc; i++)
-    {
-        prinf("%s\n", argv[i]);
-    }
     srand(time(NULL));
     const int MaxDifficulty = 8;
 
